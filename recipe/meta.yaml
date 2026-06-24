@@ -1,5 +1,5 @@
 {% set name = "tdlpackio" %}
-{% set version = "2.0.0b5" %}
+{% set version = "2.0.0b6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NOAA-MDL/tdlpackio/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: dd42ba71abcdfb9247e68a9bfe84ecf5fe7e2a6d5cd14f05a9a5be7ba167fe6c
+  sha256: 62730afeb8e769431139a994a5171c2cd8235c33e4e25353d4496b183cc6a477
 
 build:
   skip: true  # [win or py<310]
